@@ -3,5 +3,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "JWTPractice"
+    name: "JWTPractice",
+    targets: [],
+    dependencies: [
+		  .Package(url: "https://github.com/vapor/jwt.git", majorVersion: 1)
+    ]
+
 )
