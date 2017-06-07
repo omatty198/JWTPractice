@@ -1,4 +1,4 @@
-print("Hello, world!")
+import JWT
 
 struct MusicTokenFactory {
     let kid: String
@@ -30,3 +30,4 @@ struct MusicTokenFactory {
         return try jwt.createToken()
     }
 }
+
